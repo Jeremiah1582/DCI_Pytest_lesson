@@ -1,12 +1,11 @@
 import pytest
-import requests
-from lesson3_testing_pytest import main
+from DCI_lesson4_pytesting import more_complex_function as main
 
 badString= "pyLint, a i  .. widely uSed tool that checks for .errors. in Python code and encourages good Python coding patterns, Is integrated into Visual Studio for Python projects. Run PyLint. In Visual Studio, right-click a Python project in Solution Explorer and select Python and then "
 goodString= "PyLint, a widely uSed tool that checks for. errors. in Python code and encourages good Python coding patterns, Is integrated into Visual Studio for Python projects. Run PyLint. In Visual Studio, right-click a Python project in Solution Explorer and select Python and then"
 
 # unit test 
-@pytest.mark.skip(reason="Reason for skipping the test")
+# @pytest.mark.skip(reason="Reason for skipping the test")
 def test_grammar(testString= goodString):
         # option A
         assert "  " not in testString , "no double space"

@@ -1,5 +1,5 @@
 import pytest 
-import main
+from DCI_lesson4_pytesting import main
 
 # ----------------------test cases ------------------
 def test_multiplication():
