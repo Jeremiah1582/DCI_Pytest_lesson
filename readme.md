@@ -2,6 +2,7 @@
  1. How Pytest Works
  2. How to get Started with Pytest 
  3. TDD Best Practices
+ 4. official Docs
 
 1.------------------- HOW PYTEST WORKS --------------------------
 
@@ -52,3 +53,7 @@ That's it! You can now write and run tests using pytest in Visual Studio Code. R
 # - test edge scenarios
 # - Always Be Testing, especially with CI/CD (github scenario)
 # - test after every change, no matter how small 
+
+
+-------------------------------------Documentation: ------------------------------
+Official documentation: https://docs.pytest.org/en/7.3.x/getting-started.html#create-your-first-test
